@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Setting up commit signing with 1Password"
 git config --global gpg.format ssh
 git config --global user.signingkey "$SSH_SIGNING_KEY"
